@@ -1,0 +1,88 @@
+/* Algemene opmaak */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #4a90e2;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Afbeeldingen en figuren */
+img {
+    width: 80%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 8px;
+    color: #666;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
